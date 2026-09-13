@@ -13,9 +13,10 @@ export default async function Login({ searchParams }: { searchParams: Promise<{ 
         <p className="mt-2 font-semibold">Browsing is free. Voting and snitching need a GitHub account.</p>
       </div>
       {error && (
-        <p className="border-3 border-ink bg-pink p-3 text-sm font-bold" role="alert">
-          Login didn&apos;t go through. Try again.
-        </p>
+        <div className="border-3 border-ink bg-pink p-3 text-sm" role="alert">
+          <p className="font-bold">Login didn&apos;t go through.</p>
+          <p className="mt-1 font-medium">{error}</p>
+        </div>
       )}
       <GitHubButton next={next} />
     </div>
