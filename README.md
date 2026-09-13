@@ -193,3 +193,7 @@ proxy.ts                session cookie refresh
 
 Comments and threads, verified RAM measurement (everything here is self-reported and labelled as
 such), and admin moderation tooling.
+
+## License
+
+Apache License 2.0. See [LICENSE](LICENSE).
